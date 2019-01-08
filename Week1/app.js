@@ -18,10 +18,10 @@ console.log(exercise3.lastThree("Javascript"));
 console.log(exercise3.lastThree("Hi"));
 
 console.log("\nExercise 4: ");
+console.log(exercise4.checkAngle(47));
 console.log(exercise4.checkAngle(90));
-console.log(exercise4.checkAngle(45));
+console.log(exercise4.checkAngle(145));
 console.log(exercise4.checkAngle(180));
-console.log(exercise4.checkAngle(140));
 
 console.log("\nExercise 5: ");
 console.log(exercise5.maxConsecutive([1, 2, 3, 14, 5], 2));
