@@ -3,7 +3,6 @@ const exercise2 = require("./exercise2/exercise2");
 const exercise3 = require("./exercise3/exercise3");
 const exercise4 = require("./exercise4/exercise4");
 const exercise5 = require("./exercise5/exercise5");
-const exercise6 = require("./exercise6/car");
 
 const colors = ["red", "green", "blue"];
 const values = [1, 60, 34, 30, 20, 5];
@@ -27,3 +26,5 @@ console.log(exercise5.calculateSum(array));
 console.log(exercise5.calculateProduct(array));
 
 //I couldn't export exercise 6
+console.log("\nExercise 6:")
+const exercise6 = require("./exercise6/car");
