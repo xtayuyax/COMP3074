@@ -11,8 +11,8 @@ const delayedPromise = (number) => {
     let promise = new Promise(function(resolve, reject){
         setTimeout(() => {
             console.log("done!");
+            resolve(number * number);
         }, 500);
-        resolve(number * number);
     })
     
     return promise;
